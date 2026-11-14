@@ -401,7 +401,6 @@ const setDoc = (k, v) => { if (isGuest()) return; shared.docs[k] = { v, t: Date.
 window.APP = { sheet, closeSheet, toast: m => toast(m), getItem: id => shared.items[id], setItem, getDoc, setDoc, isGuest, guestToast, rateSheet, starsLabel };
 /* ---------- מסך פתיחה ---------- */
 (function splash() {
-  const N = 26; $("#flag").innerHTML = Array.from({ length: N }, (_, i) => `<i style="animation-delay:${-i * 0.09}s"></i>`).join("");
   const d0 = T.days[0].date.split("-"), d1 = T.days[T.days.length - 1].date.split("-");
   $("#sp-date").textContent = `${+d0[2]}–${+d1[2]} בדצמבר ${d0[0]} · המראה ${T.start.slice(11, 16)}`;
   const short = t => t.replace(/ – .*| \(.*\)/, "").replace(/^שוק חג המולד /, "שוק ").slice(0, 24);
