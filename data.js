@@ -12,7 +12,7 @@ window.TRIP = {
       date: "2026-12-02", name: "יום רביעי", title: "נוחתים בברלין!", art: "plane", transport: "ABC",
       transportNote: "Berlin WelcomeCard ABC ל-6 ימים – קונים היום",
       items: [
-        { id: "d1-flight", title: "טיסה הלוך 6H255", time: "12:05", hard: true, icon: "✈️",
+        { id: "d1-flight", title: "טיסה לברלין", time: "12:05", hard: true, icon: "✈️",
           notes: ["ישראייר, טרמינל 3 – לבדוק לפני", "נחיתה 15:30"] },
         { id: "d1-hotel", title: "צ'ק-אין במלון Dorint", icon: "🏨", maps: "Dorint Kurfürstendamm Berlin Augsburger Str. 41" },
         { id: "d1-super", title: "סופר – אוכל לכמה ימים", icon: "🛒",
@@ -116,7 +116,7 @@ window.TRIP = {
         { id: "d8-train", title: "יוצאים לשדה ברכבת", time: "10:50", hard: true, icon: "🚆",
           notes: ["שתי רכבות – שעה", "דרך Hauptbahnhof או Ostkreuz"] },
         { id: "d8-airport", title: "מגיעים לשדה", time: "11:50", hard: true, icon: "🛫", maps: "BER Airport Terminal 1" },
-        { id: "d8-flight", title: "טיסה חזור BZ271", time: "14:50", hard: true, icon: "✈️",
+        { id: "d8-flight", title: "טיסה הביתה", time: "14:50", hard: true, icon: "✈️",
           notes: ["טרמינל 1", "נחיתה בנתב\"ג 20:10"] }
       ]
     }
